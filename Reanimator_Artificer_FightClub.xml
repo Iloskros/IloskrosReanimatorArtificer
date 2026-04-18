@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+
+  <!-- ============================================================ -->
+  <!-- ARTIFICER CLASS (base class, for users without TCE loaded)    -->
+  <!-- ============================================================ -->
+<class>
+  <name>Artificer</name>
+  <hd>8</hd>
+  <proficiency>Constitution, Intelligence</proficiency>
+  <spellAbility>Intelligence</spellAbility>
+  <numSkills>2</numSkills>
+  <armor>light, medium, shields</armor>
+  <weapons>simple</weapons>
+  <tools>thieves' tools, tinker's tools, one type of artisan's tools of your choice</tools>
+  <wealth>5d4 x 10</wealth>
+  <autolevel level="1">
+    <slots>2,0,0,0,0</slots>
+    <feature>
+      <name>Hit Points</name>
+      <text>Hit Dice: 1d8 per artificer level</text>
+      <text>Hit Points at 1st Level: 8 + your Constitution modifier</text>
+      <text>Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per artificer level after 1st</text>
+    </feature>
+    <feature>
+      <name>Proficiencies</name>
+      <text>Armor: Light armor, medium armor, shields</text>
+      <text>Weapons: Simple weapons</text>
+      <text>Tools: Thieves&apos; tools, tinker&apos;s tools, one type of artisan&apos;s tools of your choice</text>
+      <text>Saving Throws: Constitution, Intelligence</text>
+      <text>Skills: Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</text>
+    </feature>
+    <feature>
+      <name>Magical Tinkering</name>
+      <text>At 1st level, you learn how to invest a spark of magic into mundane objects. To use this ability, you must have thieves&apos; tools or artisan&apos;s tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:</text>
+      <text>• The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</text>
+      <text>• Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.</text>
+      <text>• The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.</text>
+      <text>• A static visual effect appears on one of the object&apos;s surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.</text>
+      <text>The chosen property lasts indefinitely. As an action, you can touch the object and end the property early. You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies.</text>
+    </feature>
+    <feature>
+      <name>Spellcasting</name>
+      <text>You have studied the workings of magic and how to channel it through objects. As a result, you have gained the ability to cast spells. To observers, you don&apos;t appear to be casting spells in a conventional way; you look as if you&apos;re producing wonders through mundane means.</text>
+      <text>Tools Required: You produce your artificer spell effects through your tools. You must have a spellcasting focus — specifically thieves&apos; tools or some kind of artisan&apos;s tools — in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way.</text>
+      <text>Cantrips (0-Level Spells): You know two cantrips of your choice from the artificer spell list. At 10th level, you learn another artificer cantrip of your choice.</text>
+      <text>Preparing and Casting Spells: The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell&apos;s level or higher.</text>
+      <text>You prepare the list of artificer spells that are available for you to cast. To do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. You can change your list of prepared spells when you finish a long rest. Preparing a new list requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list.</text>
+      <text>Spellcasting Ability: Intelligence is your spellcasting ability for your artificer spells.</text>
+      <text>Spell Save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
+      <text>Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+      <text>Ritual Casting: You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="2">
+    <slots>2,0,0,0,0</slots>
+    <feature>
+      <name>Infuse Item</name>
+      <text>At 2nd level, you gain the ability to imbue mundane items with certain magical infusions. The magic items you create with this feature are effectively prototypes of permanent items.</text>
+      <text>Infusions Known: When you gain this feature, pick four artificer infusions to learn. You learn additional infusions of your choice when you reach certain levels in this class: 6th, 10th, 14th, and 18th level. Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.</text>
+      <text>Infusing an Item: Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion&apos;s description. If the item requires attunement, you can attune yourself to it the instant you infuse the item, or you can forgo attunement so another creature can attune to it. If you decide to attune to the item later, you must do so using the normal process for attunement.</text>
+      <text>Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.</text>
+      <text>You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. If you try to exceed your maximum number of infusions, the oldest infusion ends, and then the new infusion applies.</text>
+      <text>If an infusion ends on an item that contains other things (such as a Bag of Holding), the contents of the item harmlessly appear in and around its space.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="3">
+    <slots>3,0,0,0,0</slots>
+    <feature>
+      <name>Artificer Specialist</name>
+      <text>At 3rd level, you choose the type of specialist you are. Your choice grants you features at 5th level and again at 9th and 15th level.</text>
+    </feature>
+    <feature>
+      <name>The Right Tool for the Job</name>
+      <text>At 3rd level, you learn how to produce exactly the tool you need: with thieves&apos; tools or artisan&apos;s tools in hand, you can magically create one set of artisan&apos;s tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="4" scoreImprovement="YES">
+    <slots>3,0,0,0,0</slots>
+
+  </autolevel>
+  <autolevel level="5">
+    <slots>4,2,0,0,0</slots>
+
+  </autolevel>
+  <autolevel level="6">
+    <slots>4,2,0,0,0</slots>
+    <feature>
+      <name>Tool Expertise</name>
+      <text>Starting at 6th level, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="7">
+    <slots>4,3,0,0,0</slots>
+    <feature>
+      <name>Flash of Genius</name>
+      <text>Starting at 7th level, you gain the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.</text>
+      <text>You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="8" scoreImprovement="YES">
+    <slots>4,3,0,0,0</slots>
+
+  </autolevel>
+  <autolevel level="9">
+    <slots>4,3,2,0,0</slots>
+
+  </autolevel>
+  <autolevel level="10">
+    <slots>4,3,2,0,0</slots>
+    <feature>
+      <name>Magic Item Adept</name>
+      <text>When you reach 10th level, you achieve a profound understanding of how to use and make magic items:</text>
+      <text>• You can attune to up to four magic items at once.</text>
+      <text>• If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="11">
+    <slots>4,3,3,0,0</slots>
+    <feature>
+      <name>Spell-Storing Item</name>
+      <text>At 11th level, you learn how to store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the artificer spell list that requires 1 action to cast (you needn&apos;t have it prepared).</text>
+      <text>While holding the object, a creature can take an action to produce the spell&apos;s effect from it, using your spellcasting ability modifier. If the spell requires concentration, the creature must concentrate. The spell stays in the object until it&apos;s been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="12" scoreImprovement="YES">
+    <slots>4,3,3,0,0</slots>
+
+  </autolevel>
+  <autolevel level="13">
+    <slots>4,3,3,1,0</slots>
+
+  </autolevel>
+  <autolevel level="14">
+    <slots>4,3,3,1,0</slots>
+    <feature>
+      <name>Magic Item Savant</name>
+      <text>At 14th level, your skill with magic items deepens more:</text>
+      <text>• You can attune to up to five magic items at once.</text>
+      <text>• You ignore all class, race, spell, and level requirements on attuning to or using a magic item.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="15">
+    <slots>4,3,3,2,0</slots>
+
+  </autolevel>
+  <autolevel level="16" scoreImprovement="YES">
+    <slots>4,3,3,2,0</slots>
+
+  </autolevel>
+  <autolevel level="17">
+    <slots>4,3,3,3,1</slots>
+
+  </autolevel>
+  <autolevel level="18">
+    <slots>4,3,3,3,1</slots>
+    <feature>
+      <name>Magic Item Master</name>
+      <text>Starting at 18th level, you can attune to up to six magic items at once.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="19" scoreImprovement="YES">
+    <slots>4,3,3,3,2</slots>
+
+  </autolevel>
+  <autolevel level="20">
+    <slots>4,3,3,3,2</slots>
+    <feature>
+      <name>Soul of Artifice</name>
+      <text>At 20th level, you develop a mystical connection to your magic items, which you can draw on for protection:</text>
+      <text>• You gain a +1 bonus to all saving throws per magic item you are currently attuned to.</text>
+      <text>• If you&apos;re reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0.</text>
+    </feature>
+  </autolevel>
+</class>
+
+  <!-- ============================================================ -->
+  <!-- REANIMATOR SUBCLASS (merges into Artificer via name match)    -->
+  <!-- ============================================================ -->
+<class>
+  <name>Artificer</name>
+  <autolevel level="3">
+    <feature>
+      <name>Reanimator Spells</name>
+      <text>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Reanimator Spells table. These spells count as artificer spells for you, but they don&apos;t count against the number of artificer spells you prepare.</text>
+      <text>3rd: false life, inflict wounds</text>
+      <text>5th: gentle repose, ray of enfeeblement</text>
+      <text>9th: animate dead, speak with dead</text>
+      <text>13th: blight, death ward</text>
+      <text>17th: contagion, negative energy flood</text>
+    </feature>
+    <feature>
+      <name>Tools of the Trade</name>
+      <text>When you choose this specialty at 3rd level, you gain proficiency with the embalmer&apos;s kit. If you already have this proficiency, you gain proficiency with one other artisan&apos;s tool of your choice.</text>
+    </feature>
+    <feature>
+      <name>Bind the Dead</name>
+      <text>At 3rd level, you learn the rite of construct binding. Over the course of a long rest, using an embalmer&apos;s kit and tinker&apos;s tools together with a suitable corpse, you bind one undead construct. Choose a chassis from the Chassis List whose Tier does not exceed your maximum. The construct rises at the end of the long rest under your control.</text>
+      <text>You begin with two constructs already bound. From 3rd level onward, the size of your Menagerie is capped by your Intelligence modifier (minimum of 1). A construct bound above this cap may still exist, but cannot be designated Active until your cap permits it.</text>
+      <text></text>
+      <text>Chassis Tiers: Each chassis has a Tier from 1 to 4. You may only bind constructs to chassis whose Tier does not exceed your maximum.</text>
+      <text>Lv 3: Tier 1 (bear, wolf, giant snake, boar, giant ape)</text>
+      <text>Lv 7: Tier 2 (dire wolf, giant eagle, crocodile, owlbear, hell hound)</text>
+      <text>Lv 11: Tier 3 (wyvern, manticore, griffon, giant scorpion)</text>
+      <text>Lv 15: Tier 4 (dragon skeleton, chimera, roc, behir)</text>
+      <text></text>
+      <text>Lower-tier chassis remain fully viable at every level.</text>
+      <text></text>
+      <text>Construct Scaling Table (used by every construct regardless of chassis):</text>
+      <text>Lv 3: HP 5×Int+15, AC 14, Atk +Prof+Int, Dmg 1d8+Int, STR 14/DEX 12</text>
+      <text>Lv 5: HP 5×Int+25, AC 15, Atk +Prof+Int, Dmg 1d10+Int, STR 16/DEX 12</text>
+      <text>Lv 7: HP 5×Int+35, AC 16, Atk +Prof+Int, Dmg 2d6+Int, STR 16/DEX 14 (Multiattack: 2 attacks)</text>
+      <text>Lv 9: HP 5×Int+45, AC 16, Atk +Prof+Int, Dmg 2d6+Int, STR 18/DEX 14</text>
+      <text>Lv 11: HP 5×Int+60, AC 17, Atk +Prof+Int, Dmg 2d8+Int, STR 18/DEX 14</text>
+      <text>Lv 13: HP 5×Int+75, AC 17, Atk +Prof+Int, Dmg 2d10+Int, STR 20/DEX 14</text>
+      <text>Lv 15: HP 5×Int+90, AC 18, Atk +Prof+Int, Dmg 2d12+Int, STR 20/DEX 16 (Multiattack: 3 attacks)</text>
+      <text>Lv 17: HP 5×Int+110, AC 18, Atk +Prof+Int, Dmg 3d10+Int, STR 22/DEX 16</text>
+      <text>Lv 20: HP 5×Int+140, AC 19, Atk +Prof+Int, Dmg 3d12+Int, STR 22/DEX 16</text>
+      <text></text>
+      <text>Mental stats for all constructs: INT 4, WIS 10, CHA 4. Saving throws: STR, CON. Skill: Perception + 1 chassis skill. Immune to poison damage, poisoned, charmed, exhaustion, frightened, paralyzed, petrified. No need to eat, drink, breathe, or sleep.</text>
+      <text></text>
+      <text>Chassis Movement Table (a construct has only movement types its chassis grants):</text>
+      <text>Lv 3: Walk 30, Climb 20, Swim 20, Fly —</text>
+      <text>Lv 5: Walk 30, Climb 25, Swim 25, Fly —</text>
+      <text>Lv 7: Walk 35, Climb 30, Swim 30, Fly 20 (hover; must land)</text>
+      <text>Lv 9: Walk 40, Climb 30, Swim 30, Fly 30</text>
+      <text>Lv 11: Walk 40, Climb 35, Swim 35, Fly 40</text>
+      <text>Lv 13: Walk 40, Climb 40, Swim 40, Fly 50</text>
+      <text>Lv 15: Walk 45, Climb 40, Swim 40, Fly 60</text>
+      <text>Lv 17: Walk 45, Climb 40, Swim 40, Fly 70</text>
+      <text>Lv 20: Walk 50, Climb 40, Swim 40, Fly 80</text>
+      <text></text>
+      <text>Chassis Senses Table (a construct has only senses its chassis grants):</text>
+      <text>Lv 3: Darkvision 30, Blindsight —, Tremorsense —, Truesight —</text>
+      <text>Lv 7: Darkvision 60, Blindsight 10, Tremorsense 10, Truesight —</text>
+      <text>Lv 11: Darkvision 90, Blindsight 20, Tremorsense 30, Truesight —</text>
+      <text>Lv 15: Darkvision 120, Blindsight 30, Tremorsense 60, Truesight 10</text>
+      <text>Lv 20: Darkvision 120, Blindsight 60, Tremorsense 90, Truesight 30</text>
+    </feature>
+    <feature>
+      <name>The Active Construct</name>
+      <text>At 3rd level, you designate one construct in your Menagerie as Active. In combat, the Active Construct rolls its own initiative and acts on its turn.</text>
+      <text>• On your turn, you may use a bonus action to command the Active Construct to take the Attack, Dash, Disengage, Help, or Hide action, or to use one of its Chassis Actions.</text>
+      <text>• If you issue no command, the construct takes the Dodge action.</text>
+      <text>• If you are incapacitated, the construct acts on its own initiative and defends you and any ally it can reach.</text>
+      <text>Changing the Active Construct: At the end of a long rest, you may designate any construct in your Menagerie as Active; the others become Dormant. You may also change your Active Construct during a short rest by expending a spell slot of 2nd level or higher.</text>
+    </feature>
+    <feature>
+      <name>Chassis List</name>
+      <text>TIER 1 CHASSIS</text>
+      <text></text>
+      <text>Bear — Movement: Walk, Climb. Weapons: Bite (primary), Claw (secondary at Multiattack). Senses: Darkvision. Skill: Athletics.</text>
+      <text>Bulwark (Chassis Feature): When a creature within 5 feet is hit by an attack, the bear may use its reaction to swap places with that creature (if willing) and become the target instead. Usable Int modifier times per long rest.</text>
+      <text></text>
+      <text>Wolf — Movement: Walk. Weapons: Bite. Senses: Darkvision. Skill: Perception.</text>
+      <text>Pack Tactic (Chassis Feature): Attack rolls by your allies against a creature the wolf damaged this turn are made with advantage until the start of the wolf&apos;s next turn.</text>
+      <text></text>
+      <text>Giant Snake — Movement: Walk, Swim. Weapons: Bite (+1d4 poison), Constrict. Senses: none. Skill: Stealth.</text>
+      <text>Coiling Strike (Chassis Feature): On a bite hit against a Large or smaller creature, grapple (escape DC = 8 + prof + STR). Target is restrained; snake has advantage on attacks against it.</text>
+      <text></text>
+      <text>Boar — Movement: Walk. Weapons: Tusk. Senses: none. Skill: Athletics.</text>
+      <text>Charge (Chassis Feature): On a tusk hit after moving 20+ ft straight, +1d6 damage and target makes STR save (DC = 8 + prof + STR) or is knocked prone.</text>
+      <text></text>
+      <text>Giant Ape — Movement: Walk, Climb. Weapons: Fist. Senses: none. Skill: Athletics.</text>
+      <text>Rock Hurl (Chassis Feature): Once per turn, make a ranged natural weapon attack with thrown debris at 50/100 ft.</text>
+      <text></text>
+      <text>TIER 2 CHASSIS</text>
+      <text></text>
+      <text>Dire Wolf — Movement: Walk. Weapons: Bite. Senses: Darkvision. Skill: Perception.</text>
+      <text>Knockdown (Chassis Feature): On bite hit, target makes STR save (DC = 8 + prof + STR) or is knocked prone.</text>
+      <text></text>
+      <text>Giant Eagle — Movement: Walk, Fly. Weapons: Talons, Beak. Senses: none. Skill: Perception.</text>
+      <text>Dive Attack (Chassis Feature): After moving 20+ ft straight toward a target, talons hit deals +1d6 damage.</text>
+      <text></text>
+      <text>Crocodile — Movement: Walk, Swim. Weapons: Bite, Tail Slap. Senses: none. Skill: Stealth.</text>
+      <text>Death Roll (Chassis Feature): On a bite against a grappled creature, +1d8 damage and target is knocked prone.</text>
+      <text></text>
+      <text>Owlbear — Movement: Walk. Weapons: Beak, Claws. Senses: Darkvision. Skill: Perception.</text>
+      <text>Rend (Chassis Feature): If both beak and claws hit the same creature in a turn, +1 damage die of damage.</text>
+      <text></text>
+      <text>Hell Hound — Movement: Walk. Weapons: Bite (+1d6 fire). Senses: Darkvision. Skill: Perception.</text>
+      <text>Ember Breath (Chassis Feature): As an action, 15-ft cone. DEX save vs. spell DC, 4d6 fire (half on success). Int mod uses per long rest.</text>
+      <text></text>
+      <text>TIER 3 CHASSIS</text>
+      <text></text>
+      <text>Wyvern — Movement: Walk, Fly. Weapons: Bite, Stinger. Senses: Darkvision. Skill: Perception.</text>
+      <text>Venomous Sting (Chassis Feature): On stinger hit, target makes CON save (DC = 8 + prof + CON) or takes +2d6 poison (half on success). Int mod uses per long rest.</text>
+      <text></text>
+      <text>Manticore — Movement: Walk, Fly. Weapons: Claws, Bite. Senses: Darkvision. Skill: Perception.</text>
+      <text>Tail Spikes (Chassis Feature): As an action, 3 ranged attacks at 80/160 ft. Int mod uses per long rest.</text>
+      <text></text>
+      <text>Griffon — Movement: Walk, Fly. Weapons: Beak, Claws. Senses: Darkvision. Skill: Perception.</text>
+      <text>Seize and Lift (Chassis Feature): On claws hit against Medium or smaller, grapple and may carry up to half remaining movement. Drop from 10+ ft deals 2d6 bludgeoning.</text>
+      <text></text>
+      <text>Giant Scorpion — Movement: Walk. Weapons: Claw, Sting. Senses: Blindsight, Tremorsense. Skill: Stealth.</text>
+      <text>Pincer Lock (Chassis Feature): On claw hit, grapple (up to 2 creatures). Grappled targets have disadvantage on saves vs. Sting.</text>
+      <text></text>
+      <text>TIER 4 CHASSIS</text>
+      <text></text>
+      <text>Dragon Skeleton — Movement: Walk, Fly. Weapons: Bite, Claws, Tail Slap (at 15th lv). Senses: Darkvision, Blindsight. Skill: Intimidation.</text>
+      <text>Bound Breath (Chassis Feature): As an action, 30-ft cone (60-ft line at 17). Choose damage type at binding (acid/cold/fire/lightning/poison). DEX save vs. spell DC. Lv 15: 6d6. Lv 17: 8d6 line. Lv 20: 10d6 line. Int mod uses per long rest.</text>
+      <text></text>
+      <text>Chimera — Movement: Walk, Fly. Weapons: Bite (lion), Gore (goat), Bite (dragon, at 15th lv). Senses: Darkvision. Skill: Perception.</text>
+      <text>Triple Fury (Chassis Feature): Dragon-head bite +1d8 fire. Int mod uses per long rest, may replace dragon-head bite with 15-ft fire cone: DEX save vs. spell DC, 5d6 fire (half on success).</text>
+      <text></text>
+      <text>Roc — Movement: Walk, Fly. Weapons: Beak, Talons. Senses: none. Skill: Perception.</text>
+      <text>Airborne Seizure (Chassis Feature): On talons hit against Large or smaller, grapple and carry next turn. Dropped from 30+ ft deals 6d6 bludgeoning.</text>
+      <text></text>
+      <text>Behir — Movement: Walk, Climb. Weapons: Bite, Constrict. Senses: Darkvision. Skill: Stealth.</text>
+      <text>Lightning Line (Chassis Feature): As an action, 30 ft by 5 ft line. DEX save vs. spell DC, 6d6 lightning (half on success). Int mod uses per long rest.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="5">
+    <feature>
+      <name>Scavenged Parts</name>
+      <text>At 5th level, you learn to harvest useful components from fallen creatures and graft them onto your constructs. You maintain a Parts Bag whose capacity equals your Intelligence modifier + your proficiency bonus. You begin with two parts of your choice from the Scavenged Parts List.</text>
+      <text></text>
+      <text>Acquiring Parts: After combat or with a corpse of CR 1+, spend 10 minutes harvesting to add one part to your Parts Bag. The corpse must possess the trait you harvest. Parts do not decay.</text>
+      <text></text>
+      <text>Grafting: During a long rest, graft parts to or remove parts from any construct. A construct holds 1 + (artificer level / 4, rounded down) grafts (1 at 3rd, 2 at 5th, 3 at 9th, 4 at 13th, 5 at 17th). Combat-effective parts work only on the Active Construct; utility parts work on Dormant constructs too.</text>
+      <text></text>
+      <text>MOBILITY PARTS</text>
+      <text>Wings — Fly speed per Movement Table. Hover-only (max 15 ft) if chassis wasn&apos;t built for flight.</text>
+      <text>Fins — Swim speed per Movement Table. Can breathe underwater.</text>
+      <text>Climbing Claws — Climb speed per Movement Table. Can climb difficult surfaces and ceilings at half speed.</text>
+      <text>Swift Legs — +10 ft walk speed (capped by Movement Table).</text>
+      <text></text>
+      <text>SENSORY PARTS</text>
+      <text>Keen Eyes — Darkvision per Senses Table.</text>
+      <text>Echolocating Ears — Blindsight per Senses Table.</text>
+      <text>Segmented Body Plates — Tremorsense per Senses Table.</text>
+      <text>True-Sighted Eye — Truesight per Senses Table. Counts as 2 grafts. Requires CR 8+ truesight corpse.</text>
+      <text></text>
+      <text>COMBAT PARTS (Active Construct only)</text>
+      <text>Extra Jaws — +1 natural weapon attack on Attack action (once per turn). Doesn&apos;t stack with Multiattack.</text>
+      <text>Venom Glands — Once/turn on natural weapon hit: +1d6 poison and CON save vs. spell DC or poisoned until end of its next turn.</text>
+      <text>Breath Gland — Once/long rest, 15-ft cone matching source. DEX save vs. spell DC, 2d6 damage (+1d6 at lv 7/9/11/13/15, max 7d6), half on success. No effect if chassis has breath weapon.</text>
+      <text>Brutal Horns — After 20+ ft straight charge and hit, +2d6 damage. Prof bonus uses per long rest.</text>
+      <text>Stinger — +1 natural weapon attack (once per turn). On hit, CON save vs. spell DC or poisoned until end of its next turn.</text>
+      <text></text>
+      <text>UTILITY &amp; ROLEPLAY PARTS</text>
+      <text>Vocal Cords — Construct speaks one language it knew in life.</text>
+      <text>Prehensile Hands — Construct manipulates objects, doors, simple mechanisms. Cannot wield weapons with proficiency.</text>
+      <text>Chameleon Skin — Advantage on Stealth checks while motionless.</text>
+      <text>Scaled Hide — +1 AC (max +2 total from all parts).</text>
+      <text>Stink Sacs — Once/long rest, reaction to melee hit: attacker CON save vs. spell DC or poisoned until end of its next turn.</text>
+      <text>Silent Feathers — Advantage on Stealth checks while flying or at half walking speed.</text>
+      <text>Glow Organ — 10-ft dim light radius at will (free action to toggle).</text>
+      <text>Resonant Throat — Once/long rest action, 30-ft range. WIS save vs. spell DC or frightened of construct until end of its next turn.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="9">
+    <feature>
+      <name>Runic Augments</name>
+      <text>At 9th level, you carve permanent arcane runes into your Active Construct&apos;s bones and armor plating, granting it a signature enhancement. Choose one Augment from the list. You learn a second Augment at 15th level. A single construct may carry at most two Augments.</text>
+      <text>Augments apply only to the construct they&apos;re inscribed on. When you change your Active Construct, you may spend a long rest re-inscribing Augments on the new Active Construct at no material cost.</text>
+      <text></text>
+      <text>Bone-Forged Plating — +2 AC. Stacks with Scaled Hide.</text>
+      <text></text>
+      <text>Spell-Channeling Conduit — Once/turn, when you cast a 1st-level-or-higher spell targeting a single creature within 30 ft of the Active Construct, you may have the spell originate from the construct. You still make the attack/save; range and line of sight come from the construct.</text>
+      <text></text>
+      <text>Ossuary Reserve — When the Active Construct is reduced to 0 HP (but not destroyed), it drops to 1 HP and regains 2d8 + Int modifier HP. Once per long rest.</text>
+      <text></text>
+      <text>Soul-Echo Link — Telepathic link to the Active Construct within 1 mile. As an action, perceive through its senses for 10 minutes (you&apos;re blinded and deafened in your own body). Int modifier uses per long rest.</text>
+      <text></text>
+      <text>Necrotic Infusion — Natural weapon attacks count as magical and deal +1d6 necrotic (+2d6 at 15th). Creatures slain can&apos;t be raised as undead for 24 hours except by you.</text>
+      <text></text>
+      <text>Stitched Resilience — Resistance to one damage type of your choice: bludgeoning, piercing, slashing, cold, fire, necrotic, or poison. Change at the end of a long rest.</text>
+      <text></text>
+      <text>Reanimator&apos;s Tether — When the Active Construct takes damage, use your reaction to divert half (rounded down) to yourself. Cannot be reduced or prevented by resistance, immunity, or temp HP.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="15">
+    <feature>
+      <name>Master of the Menagerie</name>
+      <text>At 15th level, your mastery of binding deepens.</text>
+      <text></text>
+      <text>Second Augment: You learn a second Augment from the Runic Augments list. A single Active Construct may carry both.</text>
+      <text></text>
+      <text>Dual Active: Once per long rest, as an action, you may awaken a second construct from your Menagerie to full combat readiness for 1 minute. Both constructs act on their own initiative and follow your commands as Active Constructs. Scavenged Parts on the secondary construct function normally; Augments function only on your designated Active Construct. The secondary construct becomes Dormant again when the duration ends.</text>
+      <text></text>
+      <text>Improved Rebuilding: Rebuilding a destroyed construct now requires a single long rest. You no longer need the original corpse; any suitable chassis of equal or lower Tier preserves the construct&apos;s identity, Augments, and scavenged parts.</text>
+    </feature>
+  </autolevel>
+  <autolevel level="20">
+    <feature>
+      <name>Apex of the Craft</name>
+      <text>At 20th level, your dominion over the bound dead is absolute. You gain all of the following:</text>
+      <text>• Menagerie maximum size increases by 2 beyond your Intelligence modifier.</text>
+      <text>• Your Active Construct&apos;s hit point maximum doubles.</text>
+      <text>• Dual Active may be used Intelligence modifier times per long rest, with no duration. A construct awakened by Dual Active remains active until destroyed, dismissed, or replaced at the end of a long rest.</text>
+      <text>• Once per long rest, when your Active Construct is reduced to 0 HP, it rises immediately with HP equal to half its maximum. Separate from Ossuary Reserve.</text>
+    </feature>
+  </autolevel>
+</class>
+
+</compendium>
